@@ -1,0 +1,22 @@
+/*HOme page css*/
+.brand{
+	width: 100px;
+
+}
+
+.navbar {
+      
+      margin-left: 100px;
+}
+
+.navbar a{
+	margin-right: 50px;
+}
+
+/*.navbar a:nth-child(3){
+	margin-right: 0;
+}*/
+
+.navbar a:last-child{
+	margin-right: 0;
+}
