@@ -1,3 +1,9 @@
+/** General **/
+body {
+	margin:0;
+}
+
+
 /*HOme page css*/
 .brand{
 	width: 100px;
@@ -5,18 +11,54 @@
 }
 
 .navbar {
-      
-      margin-left: 100px;
+	position: fixed;
+	background-color: lightgrey;
+	padding: 10px;
+	width: 100%;
+	top:0;
+	left: 0;
 }
 
-.navbar a{
-	margin-right: 50px;
+.nav {
+      
+      margin-left: 200px;
+    }
+
+.nav a{
+	margin-right: 100px;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 /*.navbar a:nth-child(3){
 	margin-right: 0;
 }*/
 
-.navbar a:last-child{
+.nav a:last-child{
 	margin-right: 0;
+}
+
+.nav a:hover {
+	font-weight: bold;
+}
+
+.cover-image img {
+	width: 100%;
+	margin:20px;
+}
+
+.about-section {
+	padding:0 22px;
+}
+
+.about-section h3{
+	font-size: 3vw;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.about-section p{
+	text-align: center;
+	line-height: 30px;
+	font-size:1em;
+	word-spacing: 5px;
 }
